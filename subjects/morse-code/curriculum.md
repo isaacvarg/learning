@@ -8,6 +8,7 @@ subject: "morse-code"
 ## Koch characters
 
 1. Copy and send K, M, U, R, E and S at 20 wpm: current
+   - Lessons: 0001-k-and-m
 2. Copy and send N, A, P, T, L and W: upcoming
 3. Copy and send I, period, J, Z, = and F: upcoming
 4. Copy and send O, Y, comma, V, G and 5: upcoming

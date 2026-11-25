@@ -3,28 +3,79 @@
     {
       "title": "Koch characters",
       "milestones": [
-        { "id": "kmures", "title": "Copy and send K, M, U, R, E and S at 20 wpm", "status": "current" },
-        { "id": "naptlw", "title": "Copy and send N, A, P, T, L and W", "status": "upcoming" },
-        { "id": "ijzf", "title": "Copy and send I, period, J, Z, = and F", "status": "upcoming" },
-        { "id": "oyvg5", "title": "Copy and send O, Y, comma, V, G and 5", "status": "upcoming" },
-        { "id": "qh-digits", "title": "Copy and send /, Q, 9, 2, H and 3", "status": "upcoming" },
-        { "id": "b-question", "title": "Copy and send 8, B, ?, 4, 7 and C", "status": "upcoming" },
-        { "id": "full-set", "title": "Copy and send 1, D, 6, 0 and X: the full set", "status": "upcoming" }
+        {
+          "id": "kmures",
+          "title": "Copy and send K, M, U, R, E and S at 20 wpm",
+          "status": "current",
+          "lessons": [
+            "0001-k-and-m"
+          ]
+        },
+        {
+          "id": "naptlw",
+          "title": "Copy and send N, A, P, T, L and W",
+          "status": "upcoming"
+        },
+        {
+          "id": "ijzf",
+          "title": "Copy and send I, period, J, Z, = and F",
+          "status": "upcoming"
+        },
+        {
+          "id": "oyvg5",
+          "title": "Copy and send O, Y, comma, V, G and 5",
+          "status": "upcoming"
+        },
+        {
+          "id": "qh-digits",
+          "title": "Copy and send /, Q, 9, 2, H and 3",
+          "status": "upcoming"
+        },
+        {
+          "id": "b-question",
+          "title": "Copy and send 8, B, ?, 4, 7 and C",
+          "status": "upcoming"
+        },
+        {
+          "id": "full-set",
+          "title": "Copy and send 1, D, 6, 0 and X: the full set",
+          "status": "upcoming"
+        }
       ]
     },
     {
       "title": "Words",
       "milestones": [
-        { "id": "common-words", "title": "Copy the 100 most common words as whole sounds", "status": "upcoming" },
-        { "id": "text-15", "title": "Copy plain text at 20/15 effective wpm", "status": "upcoming" },
-        { "id": "send-text", "title": "Send plain text at 20 wpm with clean timing", "status": "upcoming" }
+        {
+          "id": "common-words",
+          "title": "Copy the 100 most common words as whole sounds",
+          "status": "upcoming"
+        },
+        {
+          "id": "text-15",
+          "title": "Copy plain text at 20/15 effective wpm",
+          "status": "upcoming"
+        },
+        {
+          "id": "send-text",
+          "title": "Send plain text at 20 wpm with clean timing",
+          "status": "upcoming"
+        }
       ]
     },
     {
       "title": "Twenty",
       "milestones": [
-        { "id": "copy-20", "title": "Copy plain text at 20/20 wpm with 90% accuracy", "status": "upcoming" },
-        { "id": "twenty", "title": "Copy and send two minutes of text at 20 wpm", "status": "upcoming" }
+        {
+          "id": "copy-20",
+          "title": "Copy plain text at 20/20 wpm with 90% accuracy",
+          "status": "upcoming"
+        },
+        {
+          "id": "twenty",
+          "title": "Copy and send two minutes of text at 20 wpm",
+          "status": "upcoming"
+        }
       ]
     }
   ]

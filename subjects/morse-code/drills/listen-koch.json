@@ -1,0 +1,8 @@
+{
+  "name": "Listen · Koch letters so far",
+  "select": { "from": "unlocked", "tags": ["receive"] },
+  "count": 20,
+  "format": "multiple-choice",
+  "timeLimits": { "perItemSeconds": 5 },
+  "payload": { "direction": "receive", "wpm": 20 }
+}

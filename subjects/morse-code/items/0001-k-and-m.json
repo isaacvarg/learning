@@ -1,0 +1,36 @@
+[
+  {
+    "id": "letter-k",
+    "type": "timed-audio",
+    "audio": "assets/audio/k.wav",
+    "answer": "K",
+    "timeLimitSeconds": 5,
+    "unlockedBy": "0001-k-and-m",
+    "tags": ["koch", "receive"]
+  },
+  {
+    "id": "letter-m",
+    "type": "timed-audio",
+    "audio": "assets/audio/m.wav",
+    "answer": "M",
+    "timeLimitSeconds": 5,
+    "unlockedBy": "0001-k-and-m",
+    "tags": ["koch", "receive"]
+  },
+  {
+    "id": "send-k",
+    "type": "flashcard",
+    "front": "Send K: key it on your desk or the spacebar, then flip",
+    "back": "dah-di-dah",
+    "unlockedBy": "0001-k-and-m",
+    "tags": ["koch", "send"]
+  },
+  {
+    "id": "send-m",
+    "type": "flashcard",
+    "front": "Send M: key it on your desk or the spacebar, then flip",
+    "back": "dah-dah",
+    "unlockedBy": "0001-k-and-m",
+    "tags": ["koch", "send"]
+  }
+]
