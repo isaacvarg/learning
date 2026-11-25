@@ -1,0 +1,30 @@
+{
+  "formatVersion": 1,
+  "timezone": "America/Los_Angeles",
+  "weekStart": "monday",
+  "streak": {
+    "restDaysPerWeek": 0
+  },
+  "assessments": {
+    "enabled": true,
+    "quizFrequency": {
+      "every": 5
+    },
+    "quizLength": 10,
+    "exams": true,
+    "timed": false,
+    "scoreDisplay": "number",
+    "passMark": 70
+  },
+  "git": {
+    "enabled": true,
+    "cadence": "session",
+    "remote": "origin",
+    "push": true
+  },
+  "vault": {
+    "enabled": true,
+    "notesFolder": "sessions"
+  },
+  "theme": "meadow"
+}
