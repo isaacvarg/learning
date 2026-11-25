@@ -1,0 +1,31 @@
+{
+  "name": "Morse code",
+  "drillPayload": { "direction": "receive", "wpm": 20 },
+  "payloadSchemas": [
+    {
+      "version": 1,
+      "kinds": {
+        "attempt": {
+          "type": "object",
+          "properties": {
+            "direction": { "enum": ["receive", "send"] },
+            "heard": { "type": "string" },
+            "answer": { "type": "string" },
+            "responseTime": { "type": "integer", "unit": "ms" },
+            "wpm": { "type": "number", "unit": "wpm" },
+            "effectiveWpm": { "type": "number", "unit": "wpm" },
+            "keyed": { "type": "string" },
+            "decoded": { "type": "string" },
+            "sendWpm": { "type": "number", "unit": "wpm" },
+            "timingError": { "type": "number", "unit": "%" }
+          }
+        }
+      }
+    }
+  ],
+  "settings": {
+    "assessments": {
+      "timed": { "minutes": 10 }
+    }
+  }
+}
